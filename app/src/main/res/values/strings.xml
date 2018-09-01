@@ -18,5 +18,8 @@
     <string name="lab">Numbers</string>
     <string name="f">Hello</string>
     <string name="codding">I Love Cooding</string>
+    <string name="li">I love Linux</string>
+    <string name="ap">I love Development</string>
+    <string name="ph">I love phrases</string>
 
 </resources>

@@ -23,6 +23,29 @@ public class MainActivity extends AppCompatActivity  {
                 startActivity(i);
             }
         });
-
+        TextView phr=findViewById(R.id.phrases);
+        phr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(MainActivity.this, Phrases.class);
+                startActivity(i);
+            }
+        });
+        TextView col=findViewById(R.id.colors);
+        col.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(MainActivity.this, Colors.class);
+                startActivity(i);
+            }
+        });
+        TextView fam=findViewById(R.id.family);
+        fam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(MainActivity.this, Family.class);
+                startActivity(i);
+            }
+        });
     }
 }
